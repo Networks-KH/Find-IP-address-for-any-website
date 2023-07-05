@@ -10,7 +10,7 @@ class WebsiteIP
         String webName = obj2.nextLine();
         obj1 = InetAddress.getByName(webName);
         System.out.println("The IP for this website is: "+obj1);
-        //Here is another function, it is give you the IP your device 
+        //Here is another function, it is give you the IP of your device 
         obj1 = InetAddress.getLocalHost();
         System.out.println("Your local IP is: "+obj1);
      
